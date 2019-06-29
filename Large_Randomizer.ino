@@ -58,14 +58,20 @@ void loop()
     wheelOn(200);
     for (i=0;i<5;i++) rgbSequence();
     */
-    wheelOn(255);
-    for (i=0;i<30;i++) rgbSequence();
-    
-    wheelOn(random(200,255));
-    for (i=random(5,10);i<15;i++) rgbSequence();
+    wheelOn(150);
+    for (i=0;i<3;i++) rgbSequence();
 
-    wheelOn(random(100,150));
-    for (i=random(5,10);i<15;i++) rgbSequence();
+    wheelOn(200);
+    for (i=0;i<5;i++) rgbSequence();
+
+    wheelOn(255);
+    for (i=0;i<10;i++) rgbSequence();
+    
+    wheelOn(random(150,255));
+    for (i=random(1,10);i<10;i++) rgbSequence();
+
+    wheelOn(random(120,150));
+    for (i=random(1,10);i<10;i++) rgbSequence();
 
   }
   // else do this...
@@ -78,5 +84,4 @@ void loop()
  
   
 }
-
 
